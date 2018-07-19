@@ -1,0 +1,31 @@
+use_frameworks!
+platform :ios, '9.0'
+
+target 'TargetName' do
+
+    pod 'JSONJoy-Swift'
+    pod 'SwiftyJSON'
+    
+    #pod 'RxSwift',    '~> 4.0'
+    #pod 'RxCocoa',    '~> 4.0'
+
+    pod 'Alamofire'
+    #pod 'PromiseKit/Alamofire', '~> 6.0'
+    #pod 'PromiseKit/Alamofire'
+
+    pod 'RxSwift'
+    pod 'RxCocoa'
+    pod 'RxAlamofire'
+    #pod 'Moya/RxSwift'
+
+    target 'TargetNameTests' do
+        inherit! :search_paths
+
+    end
+
+    target 'TargetNameUITests' do
+        inherit! :search_paths
+
+    end
+
+end

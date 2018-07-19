@@ -1,0 +1,12 @@
+/* 
+  Localizable.strings
+  OWPoC
+
+  Created by Paulo Silva on 04/07/2018.
+  Copyright © 2018 Paulo Silva. All rights reserved.
+*/
+
+//"kApiKeyNotFound" = "Undefined apiKey, please define Open Weather apiKey";
+"kApiKeyNotFound" = "Undefined Open Weather apiKey";
+"kDataNotFound" = "No data weather available";
+"kNoInternetConnectionFound" = "No Internet Connection";

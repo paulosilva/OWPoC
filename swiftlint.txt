@@ -1,0 +1,136 @@
+Array Init
+Attributes
+Block Based KVO
+Class Delegate Protocol
+Closing Brace Spacing
+Closure End Indentation
+Closure Parameter Position
+Closure Spacing
+Colon
+Comma Spacing
+Compiler Protocol Init
+Conditional Returns on Newline
+Contains over first not nil
+Control Statement
+Convenience Type
+Custom Rules
+Cyclomatic Complexity
+Discarded Notification Center Observer
+Discouraged Direct Initialization
+Discouraged Object Literal
+Discouraged Optional Boolean
+Discouraged Optional Collection
+Dynamic Inline
+Empty Count
+Empty Enum Arguments
+Empty Parameters
+Empty Parentheses with Trailing Closure
+Empty String
+Empty XCTest Method
+Explicit ACL
+Explicit Enum Raw Value
+Explicit Init
+Explicit Top Level ACL
+Explicit Type Interface
+Extension Access Modifier
+Fallthrough
+Fatal Error Message
+File Header
+File Line Length
+File Name
+First Where
+For Where
+Force Cast
+Force Try
+Force Unwrapping
+Function Body Length
+Function Default Parameter at End
+Function Parameter Count
+Generic Type Name
+Identifier Name
+Implicit Getter
+Implicit Return
+Implicitly Unwrapped Optional
+Is Disjoint
+Joined Default Parameter
+Large Tuple
+Leading Whitespace
+Legacy CGGeometry Functions
+Legacy Constant
+Legacy Constructor
+Legacy NSGeometry Functions
+Variable Declaration Whitespace
+Line Length
+Literal Expression End Indentation
+Lower ACL than parent
+Mark
+Modifier Order
+Multiline Arguments
+Multiline Function Chains
+Multiline Parameters
+Multiple Closures with Trailing Closure
+Nesting
+Nimble Operator
+No Extension Access Modifier
+No Fallthrough Only
+No Grouping Extension
+Notification Center Detachment
+Number Separator
+Object Literal
+Opening Brace Spacing
+Operator Usage Whitespace
+Operator Function Whitespace
+Overridden methods call super
+Override in Extension
+Pattern Matching Keywords
+Prefixed Top-Level Constant
+Private Actions
+Private Outlets
+Private over fileprivate
+Private Unit Test
+Prohibited calls to super
+Protocol Property Accessors Order
+Quick Discouraged Call
+Quick Discouraged Focused Test
+Quick Discouraged Pending Test
+Redundant Discardable Let
+Redundant Nil Coalescing
+Redundant Optional Initialization
+Redundant Set Access Control Rule
+Redundant String Enum Value
+Redundant Void Return
+Required Enum Case
+Returning Whitespace
+Shorthand Operator
+Single Test Class
+Min or Max over Sorted First or Last
+Sorted Imports
+Statement Position
+Strict fileprivate
+Superfluous Disable Command
+Switch and Case Statement Alignment
+Switch Case on Newline
+Syntactic Sugar
+Todo
+Trailing Closure
+Trailing Comma
+Trailing Newline
+Trailing Semicolon
+Trailing Whitespace
+Type Body Length
+Type Name
+Unavailable Function
+Unneeded Break in Switch
+Unneeded Parentheses in Closure Argument
+Untyped Error in Catch
+Unused Closure Parameter
+Unused Enumerated
+Unused Optional Binding
+Valid IBInspectable
+Vertical Parameter Alignment
+Vertical Parameter Alignment On Call
+Vertical Whitespace
+Void Return
+Weak Delegate
+XCTFail Message
+Yoda condition rule
