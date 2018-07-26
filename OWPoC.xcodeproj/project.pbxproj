@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		510B9F2C20ED4F7C001E8F41 /* CUIButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 510B9F2B20ED4F7C001E8F41 /* CUIButton.swift */; };
+		510C85C1210A3221007D9C55 /* .swiftlint.yml in Resources */ = {isa = PBXBuildFile; fileRef = 510C85C0210A3221007D9C55 /* .swiftlint.yml */; };
 		510E450820EC1DB800A959B2 /* WeatherForHourCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 510E450720EC1DB800A959B2 /* WeatherForHourCollectionViewCell.swift */; };
 		510E450A20EC28DB00A959B2 /* Enums.swift in Sources */ = {isa = PBXBuildFile; fileRef = 510E450920EC28DB00A959B2 /* Enums.swift */; };
 		5126D3FF20EE094F0052CA07 /* CUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5126D3FE20EE094F0052CA07 /* CUIView.swift */; };
@@ -28,7 +29,6 @@
 		51E5E5DA20EA21F600C25DC5 /* WeatherForDayTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51E5E5D920EA21F600C25DC5 /* WeatherForDayTableViewCell.swift */; };
 		51E5E5F420EA366500C25DC5 /* OpenWeatherAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51E5E5F320EA366500C25DC5 /* OpenWeatherAPI.swift */; };
 		51E5E5F820EA375D00C25DC5 /* UserSettings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51E5E5F720EA375D00C25DC5 /* UserSettings.swift */; };
-		51E5E5FA20EA404F00C25DC5 /* .swiftlint.yml in Resources */ = {isa = PBXBuildFile; fileRef = 51E5E5F920EA404F00C25DC5 /* .swiftlint.yml */; };
 		51E5E5FD20EA442700C25DC5 /* OpenWeatherData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51E5E5FC20EA442700C25DC5 /* OpenWeatherData.swift */; };
 		51E8C06720ECD257008A3805 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51E8C06620ECD257008A3805 /* Extensions.swift */; };
 		51F7A96E210A24010059FCA8 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 51F7A96C210A24010059FCA8 /* README.md */; };
@@ -55,6 +55,7 @@
 /* Begin PBXFileReference section */
 		5105C2E420F8B95E0082BCC0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = Base; path = Base.lproj/Localizable.strings; sourceTree = "<group>"; };
 		510B9F2B20ED4F7C001E8F41 /* CUIButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CUIButton.swift; sourceTree = "<group>"; };
+		510C85C0210A3221007D9C55 /* .swiftlint.yml */ = {isa = PBXFileReference; lastKnownFileType = text; path = .swiftlint.yml; sourceTree = "<group>"; };
 		510E450720EC1DB800A959B2 /* WeatherForHourCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherForHourCollectionViewCell.swift; sourceTree = "<group>"; };
 		510E450920EC28DB00A959B2 /* Enums.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Enums.swift; sourceTree = "<group>"; };
 		5126D3FE20EE094F0052CA07 /* CUIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CUIView.swift; sourceTree = "<group>"; };
@@ -80,7 +81,6 @@
 		51E5E5D920EA21F600C25DC5 /* WeatherForDayTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherForDayTableViewCell.swift; sourceTree = "<group>"; };
 		51E5E5F320EA366500C25DC5 /* OpenWeatherAPI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OpenWeatherAPI.swift; sourceTree = "<group>"; };
 		51E5E5F720EA375D00C25DC5 /* UserSettings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserSettings.swift; sourceTree = "<group>"; };
-		51E5E5F920EA404F00C25DC5 /* .swiftlint.yml */ = {isa = PBXFileReference; lastKnownFileType = text; path = .swiftlint.yml; sourceTree = "<group>"; };
 		51E5E5FC20EA442700C25DC5 /* OpenWeatherData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OpenWeatherData.swift; sourceTree = "<group>"; };
 		51E8C06620ECD257008A3805 /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
 		51F7A96C210A24010059FCA8 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
@@ -140,7 +140,7 @@
 				51F7A96C210A24010059FCA8 /* README.md */,
 				51F7A96D210A24010059FCA8 /* Some of the Podfile that I use.txt */,
 				517D7C1820F7A49900D3F726 /* swiftlint.txt */,
-				51E5E5F920EA404F00C25DC5 /* .swiftlint.yml */,
+				510C85C0210A3221007D9C55 /* .swiftlint.yml */,
 				51E5E5A520EA1C7900C25DC5 /* OWPoC */,
 				51E5E5BD20EA1C7B00C25DC5 /* OWPoCTests */,
 				51E5E5C820EA1C7B00C25DC5 /* OWPoCUITests */,
@@ -327,9 +327,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				510C85C1210A3221007D9C55 /* .swiftlint.yml in Resources */,
 				51B9E17F20ECFCB4003D8777 /* Localizable.strings in Resources */,
 				517D7C1920F7A49900D3F726 /* swiftlint.txt in Resources */,
-				51E5E5FA20EA404F00C25DC5 /* .swiftlint.yml in Resources */,
 				51F7A96E210A24010059FCA8 /* README.md in Resources */,
 				51F7A96F210A24010059FCA8 /* Some of the Podfile that I use.txt in Resources */,
 				51E5E5B420EA1C7B00C25DC5 /* LaunchScreen.storyboard in Resources */,

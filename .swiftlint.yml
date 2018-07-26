@@ -1,0 +1,56 @@
+disabled_rules: # rule identifiers to exclude from running
+#- colon
+#- comma
+#- control_statement
+
+- todo              # comment may be on all my projects, because I use todos :)
+
+- trailing_whitespace
+- trailing_newline
+
+- vertical_whitespace
+
+- line_length
+- file_length
+- type_body_length
+- function_body_length
+
+- type_name         # this only apply to this project
+- identifier_name   # this only apply to this project
+
+- force_try
+- force_cast
+
+- cyclomatic_complexity
+- weak_delegate
+- class_delegate_protocol
+- legacy_constructor
+
+#- empty_parentheses_with_trailing_closure
+#- redundant_optional_initialization
+
+
+opt_in_rules: # some rules are only opt-in
+#- empty_count
+# Find all the available rules by running:
+# swiftlint rules
+
+included: # paths to include during linting. `--path` is ignored if present.
+#- Source
+
+excluded: # paths to ignore during linting. Takes precedence over `included`.
+#- Carthage
+- Pods
+- Turbu/uMotif
+- Turbu/SmartChatSDK
+-
+#- Source/ExcludedFolder
+#- Source/ExcludedFile.swift
+
+#
+#if which swiftlint >/dev/null; then
+#    swiftlint
+#else
+#    echo "warning: SwiftLint not installed, download from https://github.com/realm/SwiftLint"
+#fi
+#
