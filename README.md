@@ -22,7 +22,7 @@ Open Weather Service - Proof Of Concept
 ## Data (*Folder*)
 
 * OpenWeatherAPI.swift, is the class responsible by the communication with the OW webservices;
-* OpenWeatherData.swift, have all the classes for JSON data serialisation and deserialisation;
+* OpenWeatherData.swift, haves all the classes for JSON data serialisation and deserialization, using the Codable Type;
 * OpenWeatherModel.swift, on this file you can finde the App business logic;
 
 ## Settings (*Folder*)
