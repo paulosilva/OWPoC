@@ -15,15 +15,17 @@ struct AppTheme {
     
     // Default Table View : Search
     //let kDefaultTableViewSearchOffset: CGFloat = 56.0
-
+    
     //let kDefaultTableViewHeaderHeight: CGFloat = 100
     let kDefaultTableViewHeaderFont: String = "Avenir-Medium" //"HelveticaNeue" // "Avenir-Medium" // Change Font
     let kDefaultTableViewHeaderFontSize: CGFloat = 20
+    let kDefaultTableViewHeaderFontColor: UIColor = .black
     
     // Default Table View
     //let kDefaultTableViewCellHeight: CGFloat = 50
     let kDefaultTableViewCellFont: String = "Avenir-Medium" //"HelveticaNeue" // "Avenir-Medium" // Change Font
     let kDefaultTableViewCellFontSize: CGFloat = 18
+    let kDefaultTableViewCellFontColor: UIColor = .black
     
     // Collection View
     
@@ -31,6 +33,6 @@ struct AppTheme {
     //let kDefaultCollectionViewCellHeight: CGFloat = 50
     let kDefaultCollectionViewCellFont: String = "Avenir-Medium" //"HelveticaNeue" // "Avenir-Medium" // Change Font
     let kDefaultCollectionViewCellFontSize: CGFloat = 16
+    let kDefaultCollectionViewCellFontColor: UIColor = .black
     
 }
-
