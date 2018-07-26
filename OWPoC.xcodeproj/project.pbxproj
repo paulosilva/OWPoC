@@ -31,6 +31,8 @@
 		51E5E5FA20EA404F00C25DC5 /* .swiftlint.yml in Resources */ = {isa = PBXBuildFile; fileRef = 51E5E5F920EA404F00C25DC5 /* .swiftlint.yml */; };
 		51E5E5FD20EA442700C25DC5 /* OpenWeatherData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51E5E5FC20EA442700C25DC5 /* OpenWeatherData.swift */; };
 		51E8C06720ECD257008A3805 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51E8C06620ECD257008A3805 /* Extensions.swift */; };
+		51F7A96E210A24010059FCA8 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 51F7A96C210A24010059FCA8 /* README.md */; };
+		51F7A96F210A24010059FCA8 /* Some of the Podfile that I use.txt in Resources */ = {isa = PBXBuildFile; fileRef = 51F7A96D210A24010059FCA8 /* Some of the Podfile that I use.txt */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -81,6 +83,8 @@
 		51E5E5F920EA404F00C25DC5 /* .swiftlint.yml */ = {isa = PBXFileReference; lastKnownFileType = text; path = .swiftlint.yml; sourceTree = "<group>"; };
 		51E5E5FC20EA442700C25DC5 /* OpenWeatherData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OpenWeatherData.swift; sourceTree = "<group>"; };
 		51E8C06620ECD257008A3805 /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		51F7A96C210A24010059FCA8 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		51F7A96D210A24010059FCA8 /* Some of the Podfile that I use.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "Some of the Podfile that I use.txt"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -133,6 +137,8 @@
 		51E5E59A20EA1C7900C25DC5 = {
 			isa = PBXGroup;
 			children = (
+				51F7A96C210A24010059FCA8 /* README.md */,
+				51F7A96D210A24010059FCA8 /* Some of the Podfile that I use.txt */,
 				517D7C1820F7A49900D3F726 /* swiftlint.txt */,
 				51E5E5F920EA404F00C25DC5 /* .swiftlint.yml */,
 				51E5E5A520EA1C7900C25DC5 /* OWPoC */,
@@ -324,6 +330,8 @@
 				51B9E17F20ECFCB4003D8777 /* Localizable.strings in Resources */,
 				517D7C1920F7A49900D3F726 /* swiftlint.txt in Resources */,
 				51E5E5FA20EA404F00C25DC5 /* .swiftlint.yml in Resources */,
+				51F7A96E210A24010059FCA8 /* README.md in Resources */,
+				51F7A96F210A24010059FCA8 /* Some of the Podfile that I use.txt in Resources */,
 				51E5E5B420EA1C7B00C25DC5 /* LaunchScreen.storyboard in Resources */,
 				51E5E5B120EA1C7B00C25DC5 /* Assets.xcassets in Resources */,
 				51E5E5AC20EA1C7900C25DC5 /* Main.storyboard in Resources */,
