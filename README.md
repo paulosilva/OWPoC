@@ -17,9 +17,7 @@ Open Weather Service - Proof Of Concept
 * Where you can find and put your User Interface customisations;
 * On the CUIView I use the @IBDesignable and the @IBInspectable;
 
-```
-When you are work in a big project, this is one of the best practices, because you can change the aspect of you app by editing this files. You can also consider to have one theme file to improve this.
-```
+**When you are work in a big project, this is one of the best practices, because you can change the aspect of you app by editing this files. You can also consider to have one theme file to improve this.**
 
 ## Data (*Folder*)
 
