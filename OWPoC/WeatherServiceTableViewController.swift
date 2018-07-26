@@ -339,13 +339,13 @@ class WeatherServiceTableViewController: UITableViewController {
         alert.addAction(UIAlertAction(title: "OK", style: .default, handler: { action in
             switch action.style {
             case .default:
-                print("default")
+                DLog("default")
                 
             case .cancel:
-                print("cancel")
+                DLog("cancel")
                 
             case .destructive:
-                print("destructive")
+                DLog("destructive")
                 
             }}))
         self.present(alert, animated: true, completion: nil)
@@ -494,7 +494,7 @@ extension WeatherServiceTableViewController: UICollectionViewDelegate, UICollect
     //
     func collectionView(_ collectionView: UICollectionView, didSelectItemAt indexPath: IndexPath) {
         
-        print("Collection view at row \(collectionView.tag) selected index path \(indexPath)")
+        DLog("Collection view at row \(collectionView.tag) selected index path \(indexPath)")
         
     }
     
@@ -528,7 +528,7 @@ extension WeatherServiceTableViewController: CLLocationManagerDelegate {
     
     func locationManager(_ manager: CLLocationManager, didFailWithError error: Error) {
         //
-        print("didFailwithError\(error)")
+        DLog("didFailwithError\(error)")
         
         //
         stopLocationManager()

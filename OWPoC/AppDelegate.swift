@@ -57,7 +57,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         container.loadPersistentStores(completionHandler: { (storeDescription, error) in
 
             //
-            print("Store Description: \(storeDescription)")
+            DLog("Store Description: \(storeDescription)")
             
             if let error = error as NSError? {
                 // Replace this implementation with code to handle the error appropriately.

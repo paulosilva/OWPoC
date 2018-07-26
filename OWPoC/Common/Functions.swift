@@ -104,11 +104,11 @@ func getDataFromUrl(url: URL, completion: @escaping (_ data: Data?, _ response: 
 }
 
 //func downloadImage(url: URL) {
-//    print("Download Started")
+//    DLog("Download Started")
 //    getDataFromUrl(url: url) { data, response, error in
 //        guard let data = data, error == nil else { return }
-//        print(response?.suggestedFilename ?? url.lastPathComponent)
-//        print("Download Finished")
+//        DLog(response?.suggestedFilename ?? url.lastPathComponent)
+//        DLog("Download Finished")
 //        DispatchQueue.main.async() {
 //            self.imageView.image = UIImage(data: data)
 //        }
@@ -173,7 +173,7 @@ func writeImageNamed(_ named: String, imageData: UIImage) -> Bool {
         try data.write(to: directory.appendingPathComponent(named)!)
         return true
     } catch {
-        print(error.localizedDescription)
+        DLog(error.localizedDescription)
         return false
     }
     

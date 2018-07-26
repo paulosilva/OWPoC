@@ -48,7 +48,8 @@ extension String {
         return []
     }
     
-    // print("\("string_value_to_localize".localizedString)")
+    //
+    // Use Example: print("\("string_value_to_localize".localizedString)")
     var localizedString: String {
         
         let fallbackLanguage: String = UserSettings.sharedInstance.fallbackLanguage
