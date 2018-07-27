@@ -58,12 +58,12 @@ class WeatherServiceTableViewController: UITableViewController {
         // self.navigationItem.rightBarButtonItem = self.editButtonItem
         
         // TODO: - Define Open Weather API Key
-        self.openWeatherAPI.apiKey = "f38f1774d065c8faa654d62936ee35b3"
+        self.openWeatherAPI.apiKey = "you must provide your key"
         
     }
     
-    override func viewWillAppear(_ animated: Bool)
-    {
+    override func viewWillAppear(_ animated: Bool) {
+        
         super.viewWillAppear(animated)
         
         //
