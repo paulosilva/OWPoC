@@ -1,6 +1,6 @@
 //
 //  UserSettings.swift
-//  OWPoC
+//  Paulo Silva
 //
 //  Created by Paulo Silva on 02/07/2018.
 //  Copyright © 2018 Paulo Silva. All rights reserved.

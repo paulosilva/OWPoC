@@ -15,6 +15,7 @@
 		5126D40120EE10CD0052CA07 /* AppTheme.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5126D40020EE10CD0052CA07 /* AppTheme.swift */; };
 		5137D51D20F134CB00E7D702 /* Reachability.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5137D51C20F134CB00E7D702 /* Reachability.swift */; };
 		517D7C1920F7A49900D3F726 /* swiftlint.txt in Resources */ = {isa = PBXBuildFile; fileRef = 517D7C1820F7A49900D3F726 /* swiftlint.txt */; };
+		51821352210D60C10009E62D /* Crackers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51821351210D60C10009E62D /* Crackers.swift */; };
 		51837E1520EC1756004B1B5A /* Functions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51837E1420EC1756004B1B5A /* Functions.swift */; };
 		5186882A20EF967600AC9450 /* OpenWeatherModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5186882920EF967600AC9450 /* OpenWeatherModel.swift */; };
 		51B9E17F20ECFCB4003D8777 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 51B9E18120ECFCB4003D8777 /* Localizable.strings */; };
@@ -62,6 +63,7 @@
 		5126D40020EE10CD0052CA07 /* AppTheme.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppTheme.swift; sourceTree = "<group>"; };
 		5137D51C20F134CB00E7D702 /* Reachability.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Reachability.swift; sourceTree = "<group>"; };
 		517D7C1820F7A49900D3F726 /* swiftlint.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = swiftlint.txt; sourceTree = "<group>"; };
+		51821351210D60C10009E62D /* Crackers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Crackers.swift; sourceTree = "<group>"; };
 		51837E1420EC1756004B1B5A /* Functions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Functions.swift; sourceTree = "<group>"; };
 		5186882920EF967600AC9450 /* OpenWeatherModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OpenWeatherModel.swift; sourceTree = "<group>"; };
 		51E5E5A320EA1C7900C25DC5 /* OWPoC.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OWPoC.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -119,6 +121,7 @@
 				510E450920EC28DB00A959B2 /* Enums.swift */,
 				51E8C06620ECD257008A3805 /* Extensions.swift */,
 				5137D51C20F134CB00E7D702 /* Reachability.swift */,
+				51821351210D60C10009E62D /* Crackers.swift */,
 			);
 			path = Common;
 			sourceTree = "<group>";
@@ -381,6 +384,7 @@
 				5186882A20EF967600AC9450 /* OpenWeatherModel.swift in Sources */,
 				5126D3FF20EE094F0052CA07 /* CUIView.swift in Sources */,
 				51E5E5D820EA202700C25DC5 /* WeatherServiceTableViewController.swift in Sources */,
+				51821352210D60C10009E62D /* Crackers.swift in Sources */,
 				510E450820EC1DB800A959B2 /* WeatherForHourCollectionViewCell.swift in Sources */,
 				51E5E5FD20EA442700C25DC5 /* OpenWeatherData.swift in Sources */,
 				51E8C06720ECD257008A3805 /* Extensions.swift in Sources */,
